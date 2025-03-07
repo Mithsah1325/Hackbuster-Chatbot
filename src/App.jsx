@@ -1,11 +1,18 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
+import Chatbot from './pages/Chatbot'
+import PlayGame from './pages/PlayGame'
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header />
-    </div>
+      <Routes>
+        <Route path="/chatbot" element={<Chatbot />} />
+        <Route path="/playgame" element={<PlayGame />} />
+      </Routes>
+    </Router>
   )
 }
 
