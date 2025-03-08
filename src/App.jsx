@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Chatbot from './pages/Chatbot'
 import PlayGame from './pages/PlayGame'
 import Home from './pages/Home'
+import Learn from './pages/Learn'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/chatbot" element={<Chatbot />} />
         <Route path="/playgame" element={<PlayGame />} />
+        <Route path="/learn" element={<Learn />} />
       </Routes>
     </Router>
   )

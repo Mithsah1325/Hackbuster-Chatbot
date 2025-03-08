@@ -6,11 +6,13 @@ const Header = () => {
     <header className="flex items-center justify-between bg-gray-900 text-white p-4 shadow-lg">
       {/* Left Side - Logo & Name */}
       <div className="flex items-center space-x-3">
+        <Link to="/">
         <img
-          src="https://via.placeholder.com/40" // Replace with your logo URL
+          src="https://1cfmo2xx3e.ufs.sh/f/78coIuOcAo4ClfsNFQWdElQMFkiSYmN9f2ZbXDCxcJ18HnaU" // Replace with your logo URL
           alt="HackBuster Logo"
           className="w-10 h-10 rounded-full"
         />
+        </Link>
         <h1 className="text-2xl font-bold tracking-wide text-green-400">HackBuster</h1>
       </div>
 
